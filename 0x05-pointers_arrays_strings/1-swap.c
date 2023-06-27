@@ -3,12 +3,13 @@
   *swap_int - swaps the values of two integers
   *@a:integer to swap
   *@b:integer to swap
+  *
+  *Return:returns nothing on success
   */
 void swap_int(int *a, int *b)
 {
-	int = a;
+	int temp  = *a;
 
-	a = *a;
 	*a = *b;
-	*b = a;
+	*b = temp;
 }
